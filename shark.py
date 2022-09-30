@@ -184,7 +184,7 @@ class Args:
 def banner():
     print(f"""
 {Colors.WHITE}Pyshark - A Packet Analyzer
-By: {Colors.WHITE}190846 - Sadin Ashraf | 190838 - Huzaifa Tofeeq | 190842 - Awais Akhter | 190782 - Fahim Shehzad{Colors.RESET}
+By: {Colors.WHITE}docparadox42026{Colors.RESET}
 {Colors.getFore()}HTTP {Colors.getFore()}Packet {Colors.getFore()}Sniffer{Colors.RESET}
         """)
 
