@@ -1,4 +1,3 @@
-## Network Sniffer / Packet Analyzer
 <h1 align="center">PyShark - A Python Based Packet Sniffer</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7-yellow?style=for-the-badge&logo=python">
