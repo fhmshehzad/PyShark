@@ -1,14 +1,9 @@
-# PyShark
 ## Network Sniffer / Packet Analyzer
-<h1 align="center">METH - A Python Based Packet Sniffer</h1>
+<h1 align="center">PyShark - A Python Based Packet Sniffer</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.7-yellow?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/build-stable-green?style=for-the-badge&logo=build">
   <img src="https://img.shields.io/badge/version-1.0-red?style=for-the-badge&logo=version">
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/29171692/103220004-2bb84600-4945-11eb-91bc-5d2aa296aa31.png" alt="meth working...">
-</p>
 
 A Python3 scapy based Packet Sniffer that has the capabilities of sniffing raw HTTP, TCP, UDP, ICMP, ARP packets and writing the output to .pcap for inspection within tools such as Wireshark.
 
@@ -24,21 +19,21 @@ A Python3 scapy based Packet Sniffer that has the capabilities of sniffing raw H
 ## Installation:
 Cloning:
 ```
-$ git clone https://github.com/TheFlash2k/meth.git
-$ cd meth/
+$ git clone https://github.com/pyshark/pyshark.git
+$ cd pyshark/
 $ pip3 install -r requirements.txt
 ```
 
 First Run:
 ```
-$ python3 meth.py
+$ python3 pyshark.py
 ```
 
 ## Usage
 ```
-usage: meth.py [-h] [-c COUNT] [-f FILTER [FILTER ...]] [-H] [-o OUTFILE] [-i INTERFACE]
+usage: pyshark.py [-h] [-c COUNT] [-f FILTER [FILTER ...]] [-H] [-o OUTFILE] [-i INTERFACE]
 
-METH - HTTP Packet Sniffer.
+PyShark - HTTP Packet Sniffer.
 
 optional arguments:
   -h, --help            show this help message and exit
