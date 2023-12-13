@@ -18,7 +18,7 @@ A Python3 scapy based Packet Sniffer that has the capabilities of sniffing raw H
 ## Installation:
 Cloning:
 ```
-$ git clone https://github.com/pyshark/pyshark.git
+$ git clone https://github.com/fhmshehzad/pyshark.git
 $ cd pyshark/
 $ pip3 install -r requirements.txt
 ```
